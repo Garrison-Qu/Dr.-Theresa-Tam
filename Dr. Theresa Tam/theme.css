@@ -1,0 +1,15 @@
+div{
+	margin-left:auto;
+	margin-right:auto;
+	width:800px;
+	padding:40px;
+	border:10px #0086b3 solid;
+	margin-bottom:30px;
+	background:white;
+	border-radius:50px;
+	font:arial;
+}
+
+body{
+	background:url('virus.jpg');
+}
