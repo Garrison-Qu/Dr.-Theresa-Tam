@@ -5,11 +5,22 @@ div{
 	padding:40px;
 	border:10px #0086b3 solid;
 	margin-bottom:30px;
-	background:white;
+	background:black;
 	border-radius:50px;
-	font:arial;
+	font-family:Arial;
+	color:white;
 }
 
 body{
 	background:url('virus.jpg');
+}
+
+table{
+	border:10px #80dfff solid;
+	background:white;
+	width:100%;
+}
+
+th{
+	font-size:24;
 }
