@@ -1,14 +1,14 @@
-div{
+div.blue{
 	margin-left:auto;
 	margin-right:auto;
 	width:800px;
 	padding:40px;
 	border:10px #0086b3 solid;
 	margin-bottom:30px;
-	background:black;
+	background:white;
 	border-radius:50px;
 	font-family:Arial;
-	color:white;
+	line-height:1.5em;
 }
 
 body{
@@ -17,10 +17,110 @@ body{
 
 table{
 	border:10px #80dfff solid;
-	background:white;
 	width:100%;
 }
 
 th{
 	font-size:24;
+}
+
+@keyframes lol {
+	25%  {color: red;}
+	50%  {color: blue;}
+	75% {color: green;}
+	100%   {color: purple;}
+}
+
+h1{
+	margin-left:175px;
+	font-size:48;
+	font-family:Lucida Calligraphy;
+	color: red;
+	animation-name: lol;
+	animation-duration: 4s;
+	animation-iteration-count: infinite;
+}
+
+h2{
+	margin-left:225px;
+	font-size:48;
+	font-family:Lucida Calligraphy;
+	color: red;
+	animation-name: lol;
+	animation-duration: 4s;
+	animation-iteration-count: infinite;
+}
+
+h3{
+	margin-left:300px;
+	font-size:48;
+	font-family:Lucida Calligraphy;
+	color: red;
+	animation-name: lol;
+	animation-duration: 4s;
+	animation-iteration-count: infinite;
+}
+
+h4{
+	margin-left:165px;
+	font-size:48;
+	font-family:Lucida Calligraphy;
+	color: red;
+	animation-name: lol;
+	animation-duration: 4s;
+	animation-iteration-count: infinite;
+}
+
+a[href] {
+	color: #008000;
+}
+
+div.green{
+	margin-left:auto;
+	margin-right:auto;
+	width:800px;
+	padding:40px;
+	border:10px #00FF00 solid;
+	margin-bottom:30px;
+	background:white;
+	border-radius:50px;
+	font-family:Arial;
+	line-height:1.5em;
+}
+
+div.red{
+	margin-left:auto;
+	margin-right:auto;
+	width:800px;
+	padding:40px;
+	border:10px #9400d3 solid;
+	margin-bottom:30px;
+	background:white;
+	border-radius:50px;
+	font-family:Arial;
+	line-height:1.5em;
+}
+
+img{
+	margin-left:200px;
+}
+
+th{
+	color:#9370db;
+}
+
+td{
+	color:#ffb6c1;
+}
+
+p.menu{
+	margin-left:235px;
+}
+
+p.video{
+	margin-left:280px;
+}
+
+p.back{
+	margin-left:320px;
 }
